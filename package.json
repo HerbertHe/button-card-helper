@@ -1,0 +1,25 @@
+{
+  "name": "@herberthe/button-card-helper",
+  "version": "1.0.0",
+  "description": "Button card helper for Home Assistant development",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "Herbert He<Herbert.He0229@gmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@herberthe/button-card-devkit": "^0.0.1"
+  }
+}
